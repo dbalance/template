@@ -5,11 +5,10 @@ from fastapi.security import OAuth2PasswordRequestForm
 from fastapi_users import BaseUserManager as UserManager, IntegerIDMixin, models
 from fastapi_users import exceptions
 
-from app.db.adapters.users import UserDatabase
+from ..db.adapters.users import UserDatabase
 from ..schemas.users import UC
 from ..db.models.users import User
-from app.dependencies import get_user_db
-from app.settings import SECRET
+from ..conf import SECRET
 
 
 class BaseUserManager(IntegerIDMixin, UserManager[User, int]):
@@ -100,5 +99,3 @@ class BaseUserManager(IntegerIDMixin, UserManager[User, int]):
         print(f"User {user.id} has forgot their password. Reset token: {token}")
 
 
-async def get_user_manager(user_db: UserDatabase = Depends(get_user_db)):
-    yield BaseUserManager(user_db)

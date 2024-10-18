@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d2c3c54f-8b0d-4c61-bd09-3be0766f20ef" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/test_lib.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/alembic/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/alembic/env.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/alembic/script.py.mako" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/alembic/versions/71a3d22f122a_.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/app/api/api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/app/api/endpoints/child.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/app/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/app/conf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/app/db/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/app/db/adapters/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/app/db/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/app/db/models/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/app/db/models/child.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/app/db/setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/app/dependencies/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/app/dependencies/session.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/app/exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/app/fastapi_crud_toolkit/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/app/fastapi_crud_toolkit/crud.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/app/fastapi_crud_toolkit/crud_router.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/app/fastapi_crud_toolkit/fastapi_crud_toolkit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/app/managers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/app/protos/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/app/schemas/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/app/schemas/child.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/authentificate/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/authentificate/error_code.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/authentificate/manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/app/authentificate/manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/authentificate/oauth.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/app/authentificate/oauth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/authentificate/register.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/authentificate/users.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/app/authentificate/users.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/db/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/alembic/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/db/adapters/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/alembic/versions/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/db/adapters/users.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/app/db/adapters/users.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/db/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/app/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/db/models/users.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/app/db/models/users.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dependencies.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/app/dependencies/auth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/app/authentificate/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/protos/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/app/api/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/protos/users.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/app/protos/users.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/schemas/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/app/api/endpoints/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/schemas/users.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/app/schemas/users.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/web/requirements.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2n9S0OtDljV0jwAPzVSGR6plOGg" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/pix/PycharmProjects/test_lib&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/nice" />
+      <recent name="$PROJECT_DIR$/app/db/models" />
+      <recent name="$PROJECT_DIR$/app/db/adapters" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.main (1)">
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="test_lib" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/web" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/web/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="test_lib" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d2c3c54f-8b0d-4c61-bd09-3be0766f20ef" name="Changes" comment="" />
+      <created>1728383575007</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1728383575007</updated>
+    </task>
+    <task id="LOCAL-00001" summary="init">
+      <option name="closed" value="true" />
+      <created>1728550434419</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1728550434420</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/venv/lib/python3.11/site-packages/fastapi_users/manager.py</url>
+          <line>128</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/venv/lib/python3.11/site-packages/fastapi_users/manager.py</url>
+          <line>321</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/venv/lib/python3.11/site-packages/fastapi_users/manager.py</url>
+          <line>288</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/venv/lib/python3.11/site-packages/fastapi_users/manager.py</url>
+          <line>460</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/venv/lib/python3.11/site-packages/fastapi_users/router/users.py</url>
+          <line>95</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/venv/lib/python3.11/site-packages/fastapi_users/router/auth.py</url>
+          <line>88</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/authentificate/manager.py</url>
+          <line>79</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/venv/lib/python3.11/site-packages/fastapi_users/router/register.py</url>
+          <line>59</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/venv/lib/python3.11/site-packages/fastapi_users/router/register.py</url>
+          <line>64</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/app.py</url>
+          <line>54</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/venv/lib/python3.11/site-packages/starlette/templating.py</url>
+          <line>207</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

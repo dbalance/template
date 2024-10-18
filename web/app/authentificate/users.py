@@ -7,11 +7,9 @@ from fastapi_users.authentication import (
     BearerTransport,
 )
 from ..db.models.users import User
-from .manager import get_user_manager
-from .register import get_register_router
-from app.dependencies import get_strategy
+from ..dependencies.auth import get_strategy, get_user_manager
 
-bearer_transport = BearerTransport(tokenUrl="auth/jwt/login")
+bearer_transport = BearerTransport(tokenUrl="api/auth/jwt/login")
 
 auth_backend = AuthenticationBackend(
     name="jwt",
@@ -21,12 +19,7 @@ auth_backend = AuthenticationBackend(
 
 
 class FastAPIUsers(APIUsers[User, int]):
-
-    def get_register_router(
-            self, user_schema: Type[schemas.U], user_create_schema: Type[schemas.UC]
-    ) -> APIRouter:
-        return get_register_router(self.get_user_manager, user_schema, user_create_schema)
-
+    pass
 
 fastapi_users = FastAPIUsers(get_user_manager, [auth_backend])
 

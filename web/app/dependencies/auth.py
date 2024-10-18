@@ -1,7 +1,9 @@
 from fastapi import Depends
-from .db.adapters.users import UserDatabase, TokenAdapter
+from ..authentificate.manager import BaseUserManager
+from ..db.adapters.users import UserDatabase, TokenAdapter
 from sqlalchemy.ext.asyncio import AsyncSession
-from .db.models.users import User, Token, get_async_session
+from .session import get_async_session
+from ..db.models.users import User, Token
 from fastapi_users.authentication.strategy import DatabaseStrategy
 
 
@@ -15,3 +17,7 @@ async def get_token_db(session: AsyncSession = Depends(get_async_session)):
 
 async def get_strategy(token=Depends(get_token_db)):
     return DatabaseStrategy(token, lifetime_seconds=3600)
+
+
+async def get_user_manager(user_db: UserDatabase = Depends(get_user_db)):
+    yield BaseUserManager(user_db)

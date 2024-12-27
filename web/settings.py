@@ -3,7 +3,7 @@ from pathlib import Path
 from pydantic import FieldValidationInfo, PostgresDsn, field_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
-ROOT_DIR = Path(__file__).resolve(strict=True).parent
+ROOT_DIR = Path(__file__).resolve(strict=True).parent.parent
 
 
 class Settings(BaseSettings):

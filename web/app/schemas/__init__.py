@@ -1,0 +1,1 @@
+from .m2m import WordCreate, WordRead, SentenceRead, SentenceCreate, CompositionRead, CompositionCreate, WordReadCompositions, SentenceCompositionRead

@@ -3,6 +3,7 @@ from fastapi import APIRouter
 from ..schemas.users import UserCreate, UserRead, UserUpdate
 from ..authentificate.users import auth_backend, fastapi_users
 from .endpoints.child import child_router
+from .endpoints import m2m
 
 
 api = APIRouter()
@@ -34,4 +35,10 @@ api.include_router(
     child_router,
     prefix='/child',
     tags=['child']
+)
+
+api.include_router(
+    m2m.r,
+    prefix='/m2m',
+    tags=['m2m']
 )
